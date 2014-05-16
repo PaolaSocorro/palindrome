@@ -26,6 +26,7 @@ char lowercaseCon(char input [50])
 	
 	return input[50];
 }
+/*
 char removeSpace(char input[50])
 {
 	char result[50];
@@ -48,6 +49,7 @@ char removeSpace(char input[50])
 	
 	return result[50];
 }
+*/
 
 int main()
 {
@@ -55,7 +57,7 @@ int main()
 	cout<<"Enter a palindrome"<<endl;
 	cin.getline(line,50);
 	line[50]=lowercaseCon(line);
-	line[50]=removeSpace(line);
+	//line[50]=removeSpace(line);
 	int len=strlen(line);
 
 	bool flag=true;
